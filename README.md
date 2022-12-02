@@ -12,7 +12,7 @@ this solves all use cases from directly single file deploy till multi file deplo
 
 the needed patterns.
 
-- Content Indexed IDS with a aggreed or identify able hash algorythm like ```sha512::my-name::9823798dhaisxc-....``
+- Content Indexed IDS with a aggreed or identify able hash algorythm like ```sha512::my-name::9823798dhaisxc-....```
   - That solves the cross context referencing cashing and other developer issues like injections as also incremental builds and upgrade when building a larger stack
   - as you will always create a new virtual or real entrypoint with new content ids you get a new hash also for that module (cascading hashing)
   
