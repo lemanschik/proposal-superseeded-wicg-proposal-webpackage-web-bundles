@@ -55,3 +55,9 @@ for (const [key, val] of Object.entries(m)) {
 ## Content Versioning
 The Main Versioning algorythm to use 
 
+serviceWorker.js
+```js
+
+// every fetch gets content hashed when stored and returned content hashed also add map for the content hashed items
+
+```
