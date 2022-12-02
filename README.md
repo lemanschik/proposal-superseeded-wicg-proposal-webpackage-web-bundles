@@ -35,6 +35,8 @@ a web bundle is a ECMAScript Module you can import it directly and use its expor
 
 if you want or need to transform it into a other format you load it via fetch and use the .text() output apply your modifications and import via data:url the modified module
 
+as every fetch goes through the serviceWorker this adds barSpecifier resolver to the bundle the serviceWorker also handles all 3th party requests by default even for none origin resources it handels still the whole origin.
+
 ## API Versioning
 There are 2 ways to hash the module content one is hash based on the text content this is good for development for consistent api development you can use a nice extra feature i call it API based hashing it simply uses Object.keys of the Module then the toString representation of the export keys. 
 this saves us from tracking api stability as we know the api is the same. this allows automated API versioning
