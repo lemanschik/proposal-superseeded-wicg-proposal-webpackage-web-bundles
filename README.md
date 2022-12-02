@@ -3,6 +3,11 @@ i do not know what happens but there exists https://github.com/lemanschik/webpac
 i do not know what they are doing there but some one needs to stop that asap before we get the next big dependencie matrix 
 when some one ships only that format it is like a web destruction.  
 
+The main problem is it destroys the readablity of the web and it needs to get preserved because of code reuse and also because of security audits
+i will never want to open fileaccess to code that is obfusicated like that so it is a total blocker that thing
+
+is === Kernel PANIC
+
 # web-bundels
 
 > References of Failed Designs:
