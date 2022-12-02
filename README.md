@@ -39,6 +39,19 @@ if you want or need to transform it into a other format you load it via fetch an
 There are 2 ways to hash the module content one is hash based on the text content this is good for development for consistent api development you can use a nice extra feature i call it API based hashing it simply uses Object.keys of the Module then the toString representation of the export keys. 
 this saves us from tracking api stability as we know the api is the same. this allows automated API versioning
 
+```js
+
+import('sha512::my-name::9823798dhaisxc-....').then(m=>{
+for (const [key, val] of Object.entries(m)) {
+  // hashing the export keys and values.toString() representation 
+}
+
+
+})
+```
+
+
+
 ## Content Versioning
 The Main Versioning algorythm to use 
 
