@@ -16,5 +16,11 @@ the needed patterns.
   - That solves the cross context referencing cashing and other developer issues like injections as also incremental builds and upgrade when building a larger stack
   - as you will always create a new virtual or real entrypoint with new content ids you get a new hash also for that module (cascading hashing)
   
+share able via webrtc for local development and for lan groups as also shareable via static content cash servers like cloudflare. 
 
+## Features
+- Integrated Module management with best out of Package Management patterns and abilitys
+- Highly reuseable storage format directly useable in most environments without modification
+- Highly instrumentable and shim able injections everything versioned out of the box.
+- commit branch able directly on load and live. 
 
