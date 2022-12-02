@@ -12,6 +12,8 @@ is === Kernel PANIC
 
 Core fundamental concepts Compose Modules out of Content Hashed Modules into Modules and cache the steps between that incremental or at last supply module references used to transform the other module references.
 
+Web bundels are always ECMAScript Modules which can also consist out of exported rollupModuleBundle caches as this are only serialized module representations and additional meta. 
+
 
 > References of Failed Designs:
 > 
