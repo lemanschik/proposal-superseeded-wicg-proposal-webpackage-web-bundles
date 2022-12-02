@@ -8,7 +8,7 @@
 
 ## The Solution
 We use ECMAScript Modules for everything and cache them inside serviceWorkers serviceWorkers are a bundle cache unit which can be seeded by multiple ways
-this solves all use cases from directly single file deploy till multi file deploy via HTTP3 
+this solves all use cases from directly single file deploy till multi file deploy via HTTP3 as it is always Origin Wide intercepting requests even for 3th party cross origin resources.
 
 the needed patterns.
 
