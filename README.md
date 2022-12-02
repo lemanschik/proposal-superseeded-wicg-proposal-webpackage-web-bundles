@@ -23,4 +23,22 @@ share able via webrtc for local development and for lan groups as also shareable
 - Highly reuseable storage format directly useable in most environments without modification
 - Highly instrumentable and shim able injections everything versioned out of the box.
 - commit branch able directly on load and live. 
+- API Versioning
+
+
+## Format
+a web bundle is a ECMAScript Module you can import it directly and use its exports directly. 
+```js
+
+
+```
+
+if you want or need to transform it into a other format you load it via fetch and use the .text() output apply your modifications and import via data:url the modified module
+
+## API Versioning
+There are 2 ways to hash the module content one is hash based on the text content this is good for development for consistent api development you can use a nice extra feature i call it API based hashing it simply uses Object.keys of the Module then the toString representation of the export keys. 
+this saves us from tracking api stability as we know the api is the same. this allows automated API versioning
+
+## Content Versioning
+The Main Versioning algorythm to use 
 
