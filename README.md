@@ -10,6 +10,9 @@ is === Kernel PANIC
 
 # web-bundels
 
+Core fundamental concepts Compose Modules out of Content Hashed Modules into Modules and cache the steps between that incremental or at last supply module references used to transform the other module references.
+
+
 > References of Failed Designs:
 > 
 > * [Make resource loading better with ESM and Web Bundles](https://docs.google.com/document/d/1ynJTJTdhs1t5awscawO7jomcJwsm_FnSN-qxEvbpqyM/edit?resourcekey=0-i88WuDArpBpCGihCKUuGRw)
