@@ -1,3 +1,8 @@
+# derecation before creation 
+i do not know what happens but there exists https://github.com/lemanschik/webpackage which shows that they did some drafts around a hpack fromat 
+i do not know what they are doing there but some one needs to stop that asap before we get the next big dependencie matrix 
+when some one ships only that format it is like a web destruction.  
+
 # web-bundels
 
 > References of Failed Designs:
